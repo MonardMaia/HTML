@@ -1,0 +1,71 @@
+table th, table td {
+  border: 1px solid #050505; /* Bordas suaves */
+  padding: 12px; /* Espaçamento interno */
+  text-align: center; /* Centralização horizontal [1] */
+  vertical-align: middle; /* Centralização vertical, opcional */
+}
+
+caption {
+  caption-side: top;
+  text-align: center; /* Centralização horizontal [1] */
+  vertical-align: middle; /* Centralização vertical, opcional */
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+h1{
+  font-family: Arial, sans-serif;
+  color: rgb(15, 15, 15);
+  text-align: center; /* Centralização horizontal [1] */
+  vertical-align: middle; /* Centralização vertical, opcional */
+}
+
+nav ul {
+    list-style-type: none; /* Remove as bolinhas da lista */
+    padding: 0;
+}
+nav a:hover {
+    background-color: #d4d1df; /* Efeito ao passar o mouse */
+}
+figure {
+  display: table;     /* Faz o container "abraçar" o conteúdo */
+  margin: 0 auto;     /* Centraliza a imagem na página (opcional) */
+}
+
+figcaption {
+  display: table-caption;
+  caption-side: bottom; /* Garante que fique embaixo */
+  text-align: center; /* Centralização horizontal [1] */
+  vertical-align: middle; /* Centralização vertical, opcional */
+  padding: 10px 0;
+}
+
+#corvermelho{
+  color: green;
+}
+
+.corAzul{
+  color: rebeccapurple;
+}
+
+.corAzul #corvermelho{
+  text-align: justify;
+  color: aqua;
+}
+
+.textoFim{
+  text-align: center;
+  color: rgb(255, 0, 128);
+}
+
+*{
+  margin: 2;
+  padding: 0;
+  font-weight: 100;
+}
+
+p h1{
+  color: aqua;
+  font-weight: 100;
+  text-align: center;
+}
