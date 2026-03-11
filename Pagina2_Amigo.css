@@ -1,0 +1,85 @@
+* {
+    margin: 1px;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    /* Distribui os itens uniformemente, com o primeiro item no
+início e o último no final, sem espaço nas bordas. */
+    align-items: center;
+    /*Os itens se alinham no centro vertical do recipiente.*/
+    gap: 10px;
+    /* Espaço entre o nome e a imagem */
+
+}
+
+h1 {
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h2 {
+    font-weight: 800;
+    /*Negrito*/
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    font-size: 70px;
+    /*Tamenho da fonte*/
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    /* Alinha a imagem verticalmente com o texto */
+    gap: 10px;
+    /* Espaço entre o nome e a imagem */
+
+}
+
+
+.logo-container img {
+    width: 200px;
+    /* Ajuste o tamanho da sua imagem aqui */
+    height: auto;
+    border-radius: 15px;
+}
+
+main img{
+    width: 45vw;
+    /*Ajusta o tamanho da tela*/
+    height: 62vh;
+    /*Ajusta o tamanho da tela*/
+    border-radius: 15px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    /* Distribui os itens uniformemente, com o primeiro item no
+início e o último no final, sem espaço nas bordas. */
+    align-items: center;
+    /*Os itens se alinham no centro vertical do recipiente.*/
+    gap: 10px;
+    /* Espaço entre o nome e a imagem */
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    /* Empurra o conteúdo para o final (direita) */
+    padding: 20px;
+    /* Espaço para não grudar na borda da tela */
+    background-color: #f4f4f4;
+    /* Opcional: apenas para visualizar o rodapé */
+}
+
+footer p {
+    margin: 0;
+    /* Remove margens padrão que podem desalinhá-lo */
+}
